@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(0, 0%, 95%);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 70em;
+    height: 35em;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: white;
+}
+
+img {
+    width: 5em;
+    height: 2.5em;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+button {
+    border: none;
+    padding: 1em;
+    border-radius: 1.4em;
+    font-family: 'Lexend Deca';
+    width: 12em;
+    font-size: 1em;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.car-description {
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.car-sub-container {
+    display: flex;
+    flex-direction: column;
+    width: 17em;
+    height: 27em;
+    padding: 4em;
+}
+
+#sedans-container {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs-container {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury-container {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#sedans-button {
+    color: hsl(31, 77%, 52%);;
+}
+
+#suvs-button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+#sedans-button:hover, #sedans-button:active {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+}
+
+#suvs-button:hover, #suvs-button:active {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+}
+
+#luxury-button:hover, #luxury-button:active {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+}
